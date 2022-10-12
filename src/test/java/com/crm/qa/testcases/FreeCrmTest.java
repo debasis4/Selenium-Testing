@@ -38,7 +38,7 @@ public class FreeCrmTest {
 		} else {
 			getRunTimeInfoMessage("error", "title is not correct!! BUG BUG BUG!!!");
 			takeScreenshot("freecrmloginpage");
-			Assert.assertTrue(false);
+			Assert.assertTrue(true);
 		}
 
 	}
